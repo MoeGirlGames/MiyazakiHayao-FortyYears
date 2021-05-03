@@ -27,5 +27,5 @@ jobs:
     - name: Upload artifacts
       uses: actions/upload-artifact@v2
       with:
-        name: sinocraft
-        path: ${{ github.workspace }}/build/libs/sinocraft-*.jar
+        name: fortyyears
+        path: ${{ github.workspace }}/build/libs/fortyyears-*.jar
