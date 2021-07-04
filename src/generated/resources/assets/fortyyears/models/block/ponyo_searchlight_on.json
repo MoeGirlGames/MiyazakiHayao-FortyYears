@@ -1,0 +1,7 @@
+{
+  "parent": "fortyyears:block/ponyo_searchlight",
+  "textures": {
+    "0": "fortyyears:block/ponyo_searchlight_on",
+    "particle": "fortyyears:block/ponyo_searchlight_on"
+  }
+}
