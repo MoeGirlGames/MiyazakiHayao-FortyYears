@@ -1,7 +1,10 @@
 {
   "block.fortyyears.ponyo_searchlight": "\u63A2\u7167\u706F",
+  "entity.fortyyears.fairydust": "\u7070\u5C18\u7CBE\u7075",
   "entity.fortyyears.ponyo": "\u6CE2\u599E",
+  "item.fortyyears.fairydust": "\u7070\u5C18\u7CBE\u7075\u86CB",
   "item.fortyyears.kamika_chicken": "\u6574\u9E21",
+  "item.fortyyears.kamika_mask": "\u9762\u5177",
   "item.fortyyears.ponyo": "\u6CE2\u599E\u86CB",
   "item.fortyyears.ponyo_glass_jar": "\u73BB\u7483\u7F50",
   "item.fortyyears.ponyo_glass_jar_with_ponyo": "\u73BB\u7483\u7F50\uFF08\u6CE2\u599E\uFF09",

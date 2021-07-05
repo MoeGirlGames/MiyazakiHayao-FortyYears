@@ -15,5 +15,6 @@ public class RenderEventHandler {
     @SubscribeEvent
     public static void onClientSetup(FMLClientSetupEvent event) {
         RenderingRegistry.registerEntityRenderingHandler(EntityRegistry.ponyo, RenderPonyo::new);
+        RenderingRegistry.registerEntityRenderingHandler(EntityRegistry.fairydust, RenderFairydust::new);
     }
 }
