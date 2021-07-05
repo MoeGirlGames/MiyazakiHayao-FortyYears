@@ -43,11 +43,14 @@ public class ProviderLanguage implements IDataProvider {
     private void addTranslations() {
         addGroup(FortyGroup.INSTANCE, "四十年", "Forty Years");
         addItem(ItemRegistry.kamikaChicken, "整鸡", "Chicken");
+        addItem(ItemRegistry.kamikaMask, "面具", "Mask");
         addItem(ItemRegistry.ponyoGlassJar, "玻璃罐", "Glass Jar");
         addItem(ItemRegistry.ponyoGlassJarWithPonyo, "玻璃罐（波妞）", "Glass Jar (ponyo)");
         addItem(ItemRegistry.ponyoEgg, "波妞蛋", "Ponyo Egg");
+        addItem(ItemRegistry.fairydustEgg, "灰尘精灵蛋", "Fairydust Egg");
         addBlock(BlockRegistry.ponyoSearchlight, "探照灯", "Searchlight");
         addEntityType(EntityRegistry.ponyoType, "波妞", "Ponyo");
+        addEntityType(EntityRegistry.fairydustType, "灰尘精灵", "Fairydust");
     }
 
     @Override

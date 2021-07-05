@@ -16,7 +16,6 @@ public class GeneratorEventHandler {
 
         generator.addProvider(new ProviderLanguage(generator));
         generator.addProvider(new ProviderBlockState(generator, fileHelper));
-        generator.addProvider(new ProviderBlockModel(generator, fileHelper));
         generator.addProvider(new ProviderItemModel(generator, fileHelper));
         generator.addProvider(new ProviderBlockLoot(generator));
     }

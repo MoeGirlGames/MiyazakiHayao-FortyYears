@@ -28,12 +28,14 @@ public class ItemRegistry {
 
     // kamika
     public static RegistryObject<Item> kamikaChicken = ITEMS.register("kamika_chicken", KamikaChicken::new);
+    public static RegistryObject<KamikaMask> kamikaMask = ITEMS.register("kamika_mask", KamikaMask::new);
 
     // ponyo
     public static RegistryObject<PonyoGlassJar> ponyoGlassJar = ITEMS.register("ponyo_glass_jar", PonyoGlassJar::new);
     public static RegistryObject<PonyoGlassJarWithPonyo> ponyoGlassJarWithPonyo = ITEMS.register("ponyo_glass_jar_with_ponyo", PonyoGlassJarWithPonyo::new);
     public static RegistryObject<BlockItem> ponyoSearchlight = createItem(BlockRegistry.ponyoSearchlight);
     public static RegistryObject<SpawnEggItem> ponyoEgg = createEgg(EntityRegistry.ponyoType, EntityRegistry.ponyo, 0x00FF00, 0x0000FF);
+    public static RegistryObject<SpawnEggItem> fairydustEgg = createEgg(EntityRegistry.fairydustType, EntityRegistry.fairydust, 0xFFFFFF, 0x000000);
 
     private static RegistryObject<BlockItem> createItem(RegistryObject<Block> block) {
         return BLOCKS.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().group(FortyGroup.INSTANCE)));

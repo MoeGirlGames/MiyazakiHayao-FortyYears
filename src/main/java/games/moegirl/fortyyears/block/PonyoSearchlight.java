@@ -46,7 +46,7 @@ public class PonyoSearchlight extends HorizontalBlock {
             VoxelShapes.create(0.3828125, 0.3125, 0.3046875, 0.4453125, 0.625, 0.6796875));
 
     public PonyoSearchlight() {
-        super(Properties.create(Material.IRON).doesNotBlockMovement().harvestLevel(2));
+        super(Properties.create(Material.IRON).doesNotBlockMovement().harvestLevel(2).setLightLevel(state -> state.get(ENABLED) ? 15 : 0));
         setDefaultState(getStateContainer().getBaseState().with(HORIZONTAL_FACING, Direction.NORTH).with(ENABLED, false));
     }
 
